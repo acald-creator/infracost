@@ -1,0 +1,16 @@
+
+ Name                                    Monthly Qty  Unit   Monthly Cost 
+                                                                          
+ aws_ecs_service.ecs_fargate1                                             
+ ├─ Per GB per hour                                4  GB           $12.98 
+ ├─ Per vCPU per hour                              2  CPU          $59.10 
+ └─ Inference accelerator (eia2.medium)        1,460  hours       $175.20 
+                                                                          
+ OVERALL TOTAL                                                    $247.28 
+──────────────────────────────────
+7 cloud resources were detected:
+∙ 2 were estimated
+∙ 5 were free:
+  ∙ 3 x aws_ecs_cluster
+  ∙ 1 x aws_ecs_service
+  ∙ 1 x aws_ecs_task_definition

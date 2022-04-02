@@ -1,0 +1,19 @@
+
+ Name                                       Monthly Qty  Unit   Monthly Cost 
+                                                                             
+ google_compute_address.static                                               
+ ├─ IP address (if used by standard VM)             730  hours         $2.92 
+ ├─ IP address (if used by preemptible VM)          730  hours         $1.46 
+ └─ IP address (if unused)                          730  hours         $7.30 
+                                                                             
+ google_compute_global_address.default                                       
+ ├─ IP address (if used by standard VM)             730  hours         $2.92 
+ ├─ IP address (if used by preemptible VM)          730  hours         $1.46 
+ └─ IP address (if unused)                          730  hours         $7.30 
+                                                                             
+ OVERALL TOTAL                                                        $23.36 
+──────────────────────────────────
+3 cloud resources were detected:
+∙ 2 were estimated
+∙ 1 was free:
+  ∙ 1 x google_compute_address
